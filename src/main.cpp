@@ -145,7 +145,7 @@ void sapXepTheoHSD(Thuoc ds[], int n) {
 
 void timKiemThuoc(Thuoc ds[], int n) {
     if (n == 0) {
-        cout << "\nDanh sach rong, khong th? tim kiem!\n";
+        cout << "\nDanh sach rong, khong the tim kiem!\n";
         return;
     }
 
@@ -206,7 +206,7 @@ void xoaThuoc(Thuoc ds[], int &n) {
     }
 
     int viTri;
-    cout << "Nhap vi tri thuoc me xoa (1 den " << n << "): ";
+    cout << "Nhap vi tri thuoc can xoa (1 den " << n << "): ";
     cin >> viTri;
 
     if (viTri < 1 || viTri > n) {
@@ -270,7 +270,7 @@ int main() {
                 cout << "\nDa thoat chuong trinh. Cam on ban!\n";
                 break;
             default:
-                cout << "\nLua chon khong hop le! Vui long chon tu 0 den 6.\n";
+                cout << "\nLua chon khong hop le! Vui long chon lai! .\n";
         }
     } while (luaChon != 0);
 
