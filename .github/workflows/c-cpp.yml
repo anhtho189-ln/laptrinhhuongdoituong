@@ -1,0 +1,20 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Compile C++ Code with g++
+      run: |
+        g++ src/main.cpp -o PharmacyApp
+        echo "Compile Successful!"
