@@ -1,0 +1,18 @@
+# Tệp thực thi và thư mục biên dịch
+*.exe
+*.out
+*.app
+*.o
+*.obj
+bin/
+build/
+
+# Cấu hình IDE / Trình soạn thảo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tệp hệ thống
+.DS_Store
+Thumbs.db
