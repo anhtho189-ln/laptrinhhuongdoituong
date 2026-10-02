@@ -12,11 +12,11 @@
 - **6. Xóa thuốc:** Xóa 1 loại thuốc tại vị trí chỉ định.
 
 ## Hướng dẫn chạy tệp
-# Biên dịch tất cả các tệp .cpp trong thư mục src/
+### Biên dịch tất cả các tệp .cpp trong thư mục src/
 g++ -Iinclude src/*.cpp -o PharmacyApp
 
-# Chạy ứng dụng trên Linux / macOS / GitHub Codespaces
+### Chạy ứng dụng trên Linux / macOS / GitHub Codespaces
 ./PharmacyApp
 
-# Chạy ứng dụng trên Windows (PowerShell / Command Prompt)
+### Chạy ứng dụng trên Windows (PowerShell / Command Prompt)
 .\PharmacyApp.exe
